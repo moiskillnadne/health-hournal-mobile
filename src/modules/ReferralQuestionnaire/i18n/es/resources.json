@@ -1,0 +1,20 @@
+{
+  "titles": {
+    "how_did_you_hear": "Cómo se enteró de VitalOp?"
+  },
+
+  "checkboxes": {
+    "physician": "Médico o proveedor de atención médica",
+    "insurance_company": "Compañía de seguros",
+    "friend": "Amigo",
+    "social_media": "sociales o publicidad en línea",
+    "no_one": "Nadie, ¡soy increíble y lo encontré por mi cuenta porque rockeo!",
+    "other": "Otro"
+  },
+
+  "descriptions": {
+    "enter_physican_name": "Ingrese el nombre de su proveedor de atención médica",
+    "enter_insurance_company": "Ingrese el nombre de su compañía de seguros",
+    "enter_other": "Ingrese otro"
+  }
+}

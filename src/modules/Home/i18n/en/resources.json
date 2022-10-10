@@ -1,0 +1,16 @@
+{
+  "titles": {
+    "hello": "Hello",
+    "My Wellness Journey": "My Wellness Journey"
+  },
+
+  "banner": {
+    "you_have_no_appointment_scheduled": "You have no appointment scheduled.",
+    "next_appointment": "Next Appointment",
+    "next_procedure": "Next Procedure"
+  },
+
+  "buttons": {
+    "our_favorite_things": "Our Favorite Things"
+  }
+}

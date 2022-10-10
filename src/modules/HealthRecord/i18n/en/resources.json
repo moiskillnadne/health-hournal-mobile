@@ -1,0 +1,109 @@
+{
+  "titles": {
+    "health_record": "My Health Record",
+    "my_medications": "My Medications",
+    "vitals_labs": "Vitals \n & Labs",
+    "conditions": "Conditions",
+    "doctor_visits_procedures": "Doctor Visits & Procedures",
+    "additional_information": "Additional Information",
+    "add_medication": "Add a Medication",
+    "edit_medication": "Edit a Medication",
+    "weight": "Weight",
+    "add_weight": "Add Weight",
+    "blood_pressure": "Blood Pressure",
+    "add_blood_pressure": "Add Blood Pressure",
+    "random_blood_sugar": "Random Blood Sugar",
+    "fasting_blood_sugar": "Fasting Blood Sugar",
+    "after_meal_blood_sugar": "After Meal Blood Sugar",
+    "add_random_blood_sugar": "Add Random Blood Sugar",
+    "add_fasting_blood_sugar": "Add Fasting Blood Sugar",
+    "add_after_meal_blood_sugar": "Add After Meal Blood Sugar",
+    "add_hba1c_level": "Add HbA1c level",
+    "hba1c": "HbA1c",
+    "hba1c_level": "HbA1c Level",
+    "ldl": "LDL",
+    "triglycerides": "Triglycerides",
+    "add_ldl": "Add LDL",
+    "add_triglycerides": "Add Triglycerides",
+    "my_current_conditions": "My Current Conditions",
+    "resolved_conditions": "Resolved Conditions",
+    "add_condition": "Add a Condition",
+    "addition_info": "Additional Information",
+    "add_addition_info": "Add Additional Information",
+    "edit_addition_info": "Edit Additional Information",
+    "blood_sugar": "Blood Sugar",
+    "cholesterol": "Cholesterol Level",
+    "add_procedure": "Add Procedure",
+    "add_appointment": "Add Appointment",
+    "edit_appointment": "Edit Appointment",
+    "edit_procedure": "Edit Procedure",
+    "current_medications": "Current Medications",
+    "inactive_medications": "Inactive Medications"
+  },
+
+  "headers": {
+    "random": "Random",
+    "fasting": "Fasting",
+    "after_meal": "After Meal",
+    "ldl": "LDL",
+    "triglycerides": "Triglycerides"
+  },
+
+  "questions": {
+    "what_medications_do_you_take": "What medications do you take?"
+  },
+
+  "status": {
+    "goal_met": "Goal Met",
+    "resolved": "Resolved",
+    "upcoming": "Upcoming",
+    "previous": "Previous"
+  },
+
+  "form": {
+    "dose": "Dose",
+    "monthly_cost": "Monthly cost",
+    "amount": "Amount",
+    "currency": "Currency",
+    "stopped_on": "Stopped on",
+    "reminder": "Reminder:",
+    "i_taking_this_medication_again": "I'm taking this medication again.",
+    "systolic": "Systolic",
+    "diastolic": "Diastolic",
+    "after_meal_blood_sugar": "After Meal Blood Sugar",
+    "hba1c": "HbA1c",
+    "condition": "Condition",
+    "repeat_in": "Repeat in",
+    "procedures": "Procedures",
+    "procedure_name": "Procedure name",
+    "appointment": "Appointment",
+    "specialty": "Specialty",
+    "doctors_name": "Doctor's name",
+    "date_and_time": "Date and Time",
+    "resolved_on": "Resolved on"
+  },
+
+  "bmi": "BMI",
+  "goal": "Goal",
+
+  "warnings": {
+    "changes_lost": "You will lose all the unsaved data.",
+    "share_health_info": "You are about to share your personal health information."
+  },
+
+  "buttons": {
+    "i_do_not_take_this_medication_anymore": "I do not take this medication anymore",
+    "delete": "Delete",
+    "add": "Add",
+    "save": "Save",
+    "resolve": "Resolve",
+    "add_appointment": "Add Appointment",
+    "add_procedure": "Add Procedure"
+  },
+
+  "time_units": {
+    "week": "Week",
+    "month": "Month",
+    "year": "Year"
+  }
+}

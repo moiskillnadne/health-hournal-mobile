@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "150655854778",
+    "project_id": "vitalop-wellness-app",
+    "storage_bucket": "vitalop-wellness-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150655854778:android:3de6f6cc0f6d8026183a83",
+        "android_client_info": {
+          "package_name": "com.vitalopwellnessmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150655854778-5ip4ug3tqm5ndv4022kbj7nu7u3bii68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7PaDGIuh2BJISxb-M5MZiklG89MyMLwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150655854778-5ip4ug3tqm5ndv4022kbj7nu7u3bii68.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

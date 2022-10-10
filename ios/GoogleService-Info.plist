@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>150655854778-ashims5o1h9uer16uvt0qkrrmf5jogce.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.150655854778-ashims5o1h9uer16uvt0qkrrmf5jogce</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDhUibXArd3Bw0kKPUCzCvd4a95CDc6bQk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>150655854778</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.vitalopwellness.mobile</string>
+	<key>PROJECT_ID</key>
+	<string>vitalop-wellness-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>vitalop-wellness-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:150655854778:ios:afb44164ac576fff183a83</string>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+{
+  "titles": {
+    "notifications": "Notifications",
+    "nothing_here": "Nothing Here"
+  },
+
+  "accountability_is_key": "Accountability is key! \nTap the button below to update your notification settings.",
+
+  "labels": {
+    "new": "New"
+  },
+
+  "descriptions": {
+    "got_it": "Got it!"
+  },
+
+  "buttons": {
+    "notifications_settings": "Notifications Settings"
+  }
+}

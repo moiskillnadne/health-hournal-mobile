@@ -1,0 +1,119 @@
+# Xcode
+# Build, test, and archive an Xcode workspace on macOS.
+# Add steps that install certificates, test, sign, and distribute an app, save build artifacts, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/xcode
+
+trigger:
+  - staging
+
+pool:
+  vmImage: 'macos-latest'
+
+variables:
+  - group: Mobile
+
+steps:
+  - task: CmdLine@2
+    displayName: Set iOS Bundle version
+    inputs:
+      script: '/usr/bin/find . -name *Info.plist -exec /usr/libexec/PlistBuddy -c "Set :CFBundleVersion $(Build.BuildId)" {} \;'
+      workingDirectory: 'ios/vitalopwellnessMobile'
+
+  - task: CmdLine@2
+    displayName: Setting up the app version
+    inputs:
+      script: 'bash ./appcenter-post-clone.sh; cat .env; ls;'
+
+  - task: NodeTool@0
+    displayName: 'Install Node'
+    inputs:
+      versionSpec: '16.x'
+
+  - task: Cache@2
+    inputs:
+      key: '"npm" | "$(Agent.OS)" | package-lock.json'
+      restoreKeys: |
+        npm | "$(Agent.OS)"
+        npm
+      path: 'node_modules'
+      cacheHitVar: CACHE_RESTORED
+    displayName: Cache NPM packages
+
+  - script: npm ci
+    condition: ne(variables.CACHE_RESTORED, 'true')
+    displayName: Install Dependencies
+
+  - task: InstallAppleCertificate@2
+    displayName: Install Apple Certificate
+    inputs:
+      #certSecureFile: 'ScnSoftDistributionCertificate.p12'
+      certSecureFile: 'Distribution.p12'
+      certPwd: 'vitalopwellnessMobile'
+      keychain: 'temp'
+      deleteCert: true
+
+  - task: InstallAppleProvisioningProfile@1
+    displayName: 'Install Apple Provisioning Profile'
+    inputs:
+      provisioningProfileLocation: 'secureFiles'
+      #provProfileSecureFile: 'VitalopwellnessMobile_AdHoc.mobileprovision'
+      provProfileSecureFile: 'comvitalopwellnessdistribution.mobileprovision'
+      removeProfile: true
+
+  - task: Cache@2
+    inputs:
+      key: 'pods | "$(Agent.OS)" | ios/Podfile.lock'
+      path: 'ios/Pods'
+      cacheHitVar: 'PODS_CACHE_RESTORED'
+
+  - task: CocoaPods@0
+    displayName: 'Install CocoaPods'
+    inputs:
+      workingDirectory: 'ios'
+    condition: ne(variables.PODS_CACHE_RESTORED, 'true')
+
+  - task: Xcode@5
+    displayName: 'Build IPA'
+    inputs:
+      actions: 'build'
+      configuration: 'Release'
+      sdk: 'iphoneos'
+      xcWorkspacePath: 'ios/vitalopwellnessMobile.xcworkspace'
+      scheme: 'vitalopwellnessMobile'
+      packageApp: true
+      exportPath: 'output'
+      xcodeVersion: 'default' # Options: 8, 9, 10, 11, 12, default, specifyPath
+      signingOption: 'manual'
+      signingIdentity: '$(APPLE_CERTIFICATE_SIGNING_IDENTITY)'
+      provisioningProfileUuid: '$(APPLE_PROV_PROFILE_UUID)'
+
+  - task: CopyFiles@2
+    displayName: 'Copy IPA'
+    inputs:
+      contents: '**/*.ipa'
+      targetFolder: '$(build.artifactStagingDirectory)'
+      overWrite: true
+
+  - task: PublishBuildArtifacts@1
+    displayName: 'Publish IPA to artifacts'
+    inputs:
+      PathtoPublish: '$(build.artifactStagingDirectory)'
+      ArtifactName: 'ios'
+      publishLocation: 'Container'
+
+  - task: AppCenterDistribute@3
+    displayName: 'Upload IPA to AppCenter'
+    inputs:
+      serverEndpoint: 'App Center ios'
+      appSlug: 'VITALOPWELLNESS/VitalOp'
+      appFile: 'output/vitalopwellnessMobile.ipa'
+      symbolsOption: 'Apple'
+      releaseNotesOption: 'input'
+      releaseNotesInput: |
+        $(Build.SourceVersionMessage)
+
+        latest source: '$(Build.SourceVersion)'
+
+        An automated release from Azure DevOps
+      destinationType: 'groups'
+      distributionGroupId: '583331bb-230f-4e56-b233-7e54cb8551e9'

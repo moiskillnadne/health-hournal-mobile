@@ -1,0 +1,167 @@
+{
+  "yes": "Yes",
+  "no": "No",
+  "ok": "OK",
+  "cancel": "Cancel",
+  "logout": "Log Out",
+  "next": "Next",
+  "search": "Search",
+  "add": "Add",
+  "open": "Open",
+  "close": "Close",
+
+  "english": "English",
+  "spanish": "Spanish",
+
+  "USA": "USA",
+  "metric": "Metric",
+
+  "warning": "Warning",
+  "exit": "Exit",
+
+  "goal": "Goal",
+  "frequency": "Frequency",
+  "quantity": "Quantity",
+  "date": "Date",
+
+  "month": "Month",
+  "year": "Year",
+
+  "questions": {
+    "want_to_logout": "Are you sure you would like to Log Out?",
+    "want_to_exit": "Are you sure you want to exit?"
+  },
+
+  "errors": {
+    "this_field_is_required": "This field is required",
+    "email": "Please enter valid email",
+    "emails_match": "Emails do not match",
+    "min": "This field should have at least {{min}} character",
+    "format": "Wrong format",
+    "expected_format": "Expected format: {{format}}",
+    "required": "Required",
+    "content_not_exist": "Unfortunately this content does not exist anymore. Please check the content gallery for the most up to date information.",
+
+    "password": {
+      "min": "The password should have at least {{min}} character",
+      "match": "These two passwords do not match",
+      "lowercase": "The password should have lowercase letters (a-z)",
+      "uppercase": "The password should have at least one uppercase letter (A-Z)",
+      "one_number": "The password should have at least one number",
+      "no_spaces": "The password should have no spaces",
+      "not_meeting_requirements": "Password does not meet requirements"
+    }
+  },
+
+  "warnings": {
+    "changes_lost": "The information on this page will be lost if not updated.",
+    "email_changed": "You will be logged out after changing your email. Please make sure that you have confirmed the email change to log in again.",
+    "success": "Success!",
+    "the_file_has_been_downloaded": "The file has been downloaded.",
+    "you_have_turned_off_notifications": "You have turned off the notifications settings on your phone. Please change the settings to receive notifications from VitalOp Wellness.",
+    "you_in_offline_mode": "You are in the offline mode. \nSome of the functionality is not available.",
+    "please_turn_on_alarm_permissions": "Please turn on the alarm permissions on your device in order to receive the water reminder. Click the 'Ok' button to proceed. Please be aware that once you turn on the alarm permissions, the application will be closed automatically and you will need to login the application again in order to proceed."
+  },
+
+  "titles": {
+    "my_wellness_journey": "My Wellness Journey",
+    "my_videos": "My Videos",
+    "my_articles": "My Articles",
+    "my_recipes": "My Recipes",
+    "health_record": "Health Record",
+    "my_medications": "My Medications",
+    "vitals_&_labs": "Vitals & Labs",
+    "conditions": "Conditions",
+    "doctor_visits": "Doctor Visits & Procedures",
+    "additional_information": "Additional Information",
+    "food_is_medicine": "Food is Medicine",
+    "my_lifestyle_tracker": "My Lifestyle Tracker",
+    "content_gallery": "Content Gallery",
+    "settings": "Settings",
+    "my_health_record": "My Health Record",
+    "home": "Home",
+    "vitalop_wellness": "VitalOp Wellness",
+    "subscription_plans": "Subscription Plans",
+    "select_your_subscription": "Select your Subscription",
+    "privacy_policy": "Privacy Policy",
+    "terms_of_use": "Terms of Use",
+    "lets_get_started": "Let's get started!",
+    "open_source_software_used": "Open Source Software used",
+    "add_promo_code": "Add a promo code."
+  },
+
+  "user": {
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "company_code": "Company Code",
+    "email": "E-mail",
+    "city": "City",
+    "state": "State",
+    "country": "Country",
+    "weight": "Weight",
+    "goal_weight": "Goal Weight",
+    "height": "Height",
+    "BMI": "BMI",
+    "birth_date": "Date of Birth",
+    "birth_gender": "Gender at Birth",
+    "race": "Race"
+  },
+
+  "volume": {
+    "oz": "ounces",
+    "ml": "milliliters"
+  },
+
+  "form": {
+    "date": "Date",
+    "time": "Time"
+  },
+
+  "tooltip": {
+    "frequency": "This area is for documenting how many times you take this medication. Example:  2 daily = twice per day or 12 yearly = 12 times per year.",
+    "monthly_cost": "How much do you spend out of your own pocket for this medication on a monthly basis?",
+    "company_code": "This code is needed to associate you with your company. This code should be provided by your company. If you do not have one, please leave the field blank."
+  },
+
+  "descriptions": {
+    "you_do_not_miss_out_opportunity": "You do not want to miss out on this opportunity to take control of your health! VitalOp is here to guide you to total wellness! Check out what we have in store for you below.",
+    "android_redeem_code": "Please select your subscription plan first and then you may enter the Redeem Code."
+  },
+
+  "actions": {
+    "add_to_favorites": "Add to Favorites",
+    "remove_from_favorites": "Remove from Favorites",
+    "redeem_code": "Redeem Code",
+    "restore_subscription": "Restore Subscription",
+    "privacy_policy": "Privacy Policy",
+    "terms_of_use": "Terms of Use",
+    "contact_us": "Contact Us",
+    "join_the_vitalop_journey": "Join the VitalOp Journey",
+    "open_source_software_used": "Open Source Software used",
+    "show_license": "Show license",
+    "homepage": "Homepage",
+    "add": "Add"
+  },
+
+  "notifications": {
+    "titles": {
+      "water_reminder": "Water Intake"
+    },
+    "descriptions": {
+      "water_reminder": "\"Thousands have lived without love, not one without water.\" - W. H. Auden  This is a reminder to nourish every cell in your body with pure Water!"
+    },
+    "actions": {
+      "add_water": "Add Water",
+      "i_scheduled": "I Scheduled",
+      "i_rescheduled": "I Rescheduled",
+      "open_health_record": "Open Health Record",
+      "remind_me_later": "Remind me later",
+      "watch_video": "Watch Video",
+      "read_article": "Read Article",
+      "view_recipe": "View Recipe",
+      "view_content": "View content",
+      "i_do_not_need_this_test": "I do not need this test",
+      "no_changes": "No changes"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "language": "Idioma",
+  "units": "Unidades",
+
+  "titles": {
+    "settings": "Configuración",
+    "account": "Detalles de la Cuenta",
+    "language_units": "Idioma y Unidades",
+    "notifications": "Notificaciones",
+    "reminders": "Recordatorios",
+    "notifications_reminders": "Notificaciones y Recordatorios",
+    "subscription_plan": "Plan de suscripción",
+    "security": "Seguridad",
+    "help": "Ayuda y apoyo",
+    "change_password": "Change Password"
+  },
+
+  "form": {
+    "first_name": "Nombre",
+    "last_name": "Apellido",
+    "email": "Correo Electrónico",
+    "city": "Ciudad",
+    "state": "Estado",
+    "country": "País",
+    "current_password": "Contraseña Actual",
+    "new_password": "Nueva contraseña",
+    "repeat_password": "Repetir contraseña"
+  },
+
+  "buttons": {
+    "save": "Guardar",
+    "send": "Enviar",
+    "submit": "Submit"
+  },
+
+  "descriptions": {
+    "we_appreciate": "Agradecemos su Confianza Continua en VitalOp.",
+    "contact_us": "Puede comunicarse con nosotros en:",
+    "check_email": "Por favor, compruebe su correo electrónico y confirme su nueva electrónico de correo electrónico antes de cambiar su contraseña."
+  },
+
+  "placeholders": {
+    "help": "¿Cómo podemos ayudar?"
+  },
+
+  "notifications": {
+    "MWJTasks": "Mis Jornadas de Viaje Hacia el Bienestar",
+    "news": "Noticias y Actualizaciones"
+  },
+
+  "reminders": {
+    "medications": "Recordadores de Medicina ",
+    "doctorAppointments": "Citas con el Médico",
+    "screeningTests": "Pruebas de detección",
+    "eyeExam": "Examen ocular",
+    "scheduleAppointments": "Programar una Cita",
+    "vitalChecks": "Compruebe los Signos Vitales",
+    "water": "Consumo de Agua"
+  }
+}

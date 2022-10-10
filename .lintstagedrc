@@ -1,0 +1,8 @@
+{
+  "src/**/*.+(ts|tsx)": [
+    "eslint --ext .tsx --ext .ts src/ --fix"
+  ],
+  "src/**/*.{ts,tsx}": [
+    "prettier --write ."
+  ]
+}

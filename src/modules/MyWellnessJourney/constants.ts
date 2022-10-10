@@ -1,0 +1,4 @@
+export const TRACK_CARD_DIMENSIONS = {
+  WIDTH: 200,
+  HEIGHT: 130,
+};

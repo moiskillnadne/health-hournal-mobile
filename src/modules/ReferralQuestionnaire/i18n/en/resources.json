@@ -1,0 +1,26 @@
+{
+  "titles": {
+    "how_did_you_hear": "How did you hear about VitalOp?",
+    "welcome": "Welcome to your VitalOp Journey"
+  },
+
+  "checkboxes": {
+    "physician": "Physician or Health Care Provider",
+    "insurance_company": "Insurance Company",
+    "friend": "Friend",
+    "social_media": "Social media or online advertising",
+    "no_one": "No one, I am awesome and I found it on my own because I rock!",
+    "other": "Other"
+  },
+
+  "buttons": {
+    "go_to_health_assessment": "Go to Health Assessment"
+  },
+
+  "descriptions": {
+    "enter_physican_name": "Enter name of your Health Care Provider",
+    "enter_insurance_company": "Enter name of your Insurance Company",
+    "enter_other": "Enter other",
+    "watch_video": "Watch this video to get started!"
+  }
+}

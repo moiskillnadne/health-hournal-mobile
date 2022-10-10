@@ -1,0 +1,63 @@
+{
+  "signup": "Regístrese",
+  "login": "Iniciar sesión",
+
+  "patTitle": "Política y Términos de Uso",
+
+  "password": "contraseña",
+  "back_to": "Back to",
+  "i_accept": "Acepto",
+  "policy_and_terms": "Política y términos",
+  "confirm_policy": "Confirmo que he leído la Política y los Términos de uso",
+
+  "titles": {
+    "signup": "¡Regístrese!",
+    "login": "¡Iniciar sesión!",
+    "thanksForJoin": "Gracias por unirse a nosotros",
+    "email_confirmation": "Correo electrónico de confirmación",
+    "restore_password": "Restaurar contraseña",
+    "check_email": "Verifique su correo electrónico",
+    "create_password": "Crear nueva contraseña",
+    "password_recovery": "Recuperación de contraseña"
+  },
+
+  "form": {
+    "email": "E-mail",
+    "new_password": "Nueva contraseña",
+    "create_password": "Crear contraseña",
+    "repeat_password": "Repetir contraseña",
+    "username": "Usuario",
+    "password": "Contraseña",
+    "captcha": "Ingrese los símbolos"
+  },
+
+  "buttons": {
+    "ok": "OK",
+    "next": "Siguiente",
+    "send": "Enviar",
+    "send_again": "Enviar de nuevo",
+    "reset_password": "Restablecer contraseña",
+    "go_to_login": "Ir a Iniciar sesión",
+    "signup": "Sign Up",
+    "confirm": "Registrarse"
+  },
+
+  "questions": {
+    "have_account": "¿Ya tiene una cuenta?",
+    "forgot_password": "¿Olvidó su contraseña?",
+    "dont_have_account": "¿No tiene una cuenta?",
+    "didnt_receive_e-mail": "¿No recibió un correo electrónico?",
+    "check_spam_filter_or": "Verifique su filtro de spam o intente con otro anuncio de correo electrónico .",
+    "try_another_e-mail": "intente con otra dirección de correo electrónico."
+  },
+
+  "descriptions": {
+    "confirmNotRobot": "Ha ingresado un nombre de usuario o contraseña incorrectos varias veces. Confirma que no eres un robot.",
+    "confirm_e-mail": "Para terminar de registrarse, solo necesita confirmar su dirección de correo electrónico.",
+    "e-mail_confirmed": "Su correo electrónico fue confirmado con éxito.",
+    "e-mail_for_restoring": "Ingrese un correo electrónico asociado con su cuenta y le enviaremos instrucciones sobre cómo restaurar su contraseña.",
+    "instructions_sent": "Se han enviado instrucciones a su correo electrónico para recuperar su contraseña.",
+    "password_instructions": "Su nueva contraseña debe ser diferente de las contraseñas utilizadas anteriormente.",
+    "password_changed": "Su contraseña ha sido cambiada con éxito."
+  }
+}

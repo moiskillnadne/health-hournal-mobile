@@ -1,0 +1,18 @@
+{
+  "titles": {
+    "my_wellness_journey": "My Wellness Journey",
+    "videos": "Videos",
+    "articles": "Articles",
+    "recipes": "Recipes",
+    "my_vital_videos": "My Vital Videos",
+    "my_vital_articles": "My Vital Articles",
+    "my_favorites": "My Favorites"
+  },
+  "fallbacks": {
+    "vital_videos": "Stay tuned for Vital Videos...",
+    "vital_articles": "Stay tuned for Vital Articles..."
+  },
+  "buttons": {
+    "see_more": "See More"
+  }
+}

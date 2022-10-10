@@ -1,0 +1,30 @@
+{
+  "titles": {
+    "lifestyle_tracker": "My Lifestyle Tracker",
+    "water": "Water",
+    "add_water": "Add Water",
+    "steps": "Steps",
+    "add_steps": "Add Steps",
+    "sleep": "Sleep",
+    "add_sleep_hours": "Add Sleep Hours"
+  },
+  "questions": {
+    "how_many_water_did_you_drink": "How much water did you drink?",
+    "what_is_your_daily_water_goal?": "What is your daily water goal?"
+  },
+  "form": {
+    "water_reminder": "Water Reminder",
+    "time_period": "Time Period",
+    "from": "From",
+    "to": "To",
+    "hours": "hours",
+    "sleep_hours": "Sleep hours"
+  },
+  "tooltip": {
+    "weight": "Size does Matter! Studies show that the risk for type 2 diabetes and heart disease is increased for: women - waist size greater than 35 inches, men - waist size greater than 40 inches.",
+    "water": "Bottoms up! Every cell in your body needs water to function properly. It's estimated that 75% of Americans are chronically dehydrated.",
+    "steps": "One Step at a time!! Studies show that taking up to 7,500 steps per day can add years to your life.",
+    "sleep": "Get some ZZZZZ's!!!! Not getting enough quality sleep negatively affects the health of almost every organ system in your body including your brain, heart, and immune system.",
+    "time_period": "What time of day are you awake on a regular basis? This allows us to send you water reminders at the appropriate times. Ex. 8am to 8 pm"
+  }
+}

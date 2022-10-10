@@ -1,0 +1,45 @@
+import { PropsWithChildren } from 'react';
+
+export { default as AddIcon } from './AddIcon';
+export { default as DeleteIcon } from './DeleteIcon';
+export { default as CollapseIcon } from './CollapseIcon';
+export { default as MailIcon } from './MailIcon';
+export { default as ShowPasswordIcon } from './ShowPasswordIcon';
+export { default as UserIcon } from './UserIcon';
+export { default as LockIcon } from './LockIcon';
+export { default as CheckBoxIcon } from './CheckBoxIcon';
+export { default as HelpIcon } from './HelpIcon';
+export { default as BurgerIcon } from './BurgerIcon';
+export { default as ArrowIcon } from './ArrowIcon';
+export { default as PencilIcon } from './PencilIcon';
+export { default as DropdownArrowIcon } from './DropdownArrowIcon';
+export { default as PasswordHintIcon } from './PasswordHintIcon';
+export { default as HintIcon } from './HintIcon';
+export { default as InfoIcon } from './InfoIcon';
+export { default as FoodIcon } from './FoodIcon';
+export { default as HealthRecordIcon } from './HealthRecordIcon';
+export { default as LifestyleTrackerIcon } from './LifestyleTrackerIcon';
+export { default as LogoutIcon } from './LogoutIcon';
+export { default as MyWellnessJourneyIcon } from './MyWellnessJourneyIcon';
+export { default as DrawerArrowIcon } from './DrawerArrowIcon';
+export { default as ContentGalleryIcon } from './ContentGalleryIcon';
+export { default as SettingsIcon } from './SettingsIcon';
+export { default as PlayIcon } from './PlayIcon';
+export { default as NotificationsIcon } from './NotificationsIcon';
+export { default as LoaderIcon } from './LoaderIcon';
+export { default as ShareIcon } from './ShareIcon';
+export { default as NotificationIcon } from './NotificationIcon';
+export { default as SearchIcon } from './SearchIcon';
+export { default as BottomLeftCornerIcon } from './BottomLeftCornerIcon';
+export { default as GoalIcon } from './GoalIcon';
+export { default as FavoriteIndicatorIcon } from './FavoriteIndicatorIcon';
+export { default as ViewedIcon } from './ViewedIcon';
+export { default as ViewedGreenIcon } from './ViewedGreenIcon';
+export { default as HomeIcon } from './HomeIcon';
+export { default as CloseIcon } from './CloseIcon';
+
+export type IconProps = PropsWithChildren<{
+  active?: boolean;
+  error?: boolean;
+  fill?: string;
+}>;

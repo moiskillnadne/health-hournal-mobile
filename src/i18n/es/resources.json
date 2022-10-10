@@ -1,0 +1,46 @@
+{
+  "yes": "Si",
+  "no": "No",
+  "logout": "Cerrar sesión",
+  "next": "Siguiente",
+
+  "english": "Inglés",
+  "spanish": "Española",
+
+  "USA": "USA",
+  "metric": "Métrico",
+
+  "questions": {
+    "want_to_logout": "¿Está seguro de que desea?"
+  },
+
+  "warnings": {
+    "changes_lost": "La información de esta página se perderá si no se actualiza."
+  },
+
+  "errors": {
+    "required": "Ingrese su campo",
+    "email": "Ingrese un correo electrónico válido",
+    "min": "Su campo debe tener más de ${min} caracteres",
+    "password": {
+      "min": "Su contraseña debe tener más de ${min} caracteres",
+      "match": "Estas dos contraseñas no coinciden",
+      "lowercase": "Debe tener letras minúsculas (a-z)",
+      "uppercase": "Debe tener al menos una letra mayúscula (A-Z)",
+      "one_number": "Debe tener al menos un número",
+      "no_spaces": "No debe tener espacios"
+    }
+  },
+
+  "notifications": {
+    "titles": {
+      "water_reminder": "Recordatorio de agua"
+    },
+    "descriptions": {
+      "water_reminder": "\"Miles han vivido sin amor, ni uno sin agua.\" - W. H. Auden. Este es un recordatorio para nutrir cada célula de tu cuerpo con agua pura!"
+    },
+    "actions": {
+      "add_water": "Agregar agua"
+    }
+  }
+}

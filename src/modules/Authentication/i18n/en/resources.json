@@ -1,0 +1,77 @@
+{
+  "signup": "Sign Up",
+  "login": "Log In",
+
+  "patTitle": "Policy and Terms of Use",
+
+  "password": "password",
+  "back_to": "Back to",
+  "i_accept": "I accept",
+  "policy_and_terms": "Privacy Policy & Terms of Use",
+  "confirm_policy": "I confirm that I have read the Policy and Terms of Use",
+
+  "titles": {
+    "signup": "Sign Up!",
+    "login": "Log In!",
+    "email_confirmation": "E-mail confirmation",
+    "restore_password": "Restore Password",
+    "restore_username": "Restore Username",
+    "check_email": "Check your e-mail",
+    "create_password": "Create new password",
+    "password_recovery": "Password Recovery",
+    "link_has_expired": "Link Has Expired",
+    "welcome": "Welcome!"
+  },
+
+  "form": {
+    "email": "E-mail",
+    "new_password": "New Password",
+    "create_password": "Create Password",
+    "repeat_password": "Repeat Password",
+    "username": "Username",
+    "password": "Password",
+    "captcha": "Enter the symbols",
+    "repeat_email": "Repeat Email"
+  },
+
+  "buttons": {
+    "ok": "OK",
+    "next": "Next",
+    "send": "Send",
+    "send_again": "Send Again",
+    "reset_password": "Reset Password",
+    "go_to_login": "Go to Log In",
+    "signup": "Sign Up",
+    "confirm": "Confirm"
+  },
+
+  "questions": {
+    "have_account": "Already have an account?",
+    "forgot_password": "Forgot password?",
+    "forgot_username": "Forgot username?",
+    "dont_have_account": "Don't have an account?",
+    "didnt_receive_e-mail": "Did not receive an email?",
+    "check_spam_filter": "Check your spam folder.",
+    "check_spam_filter_or": "Check your spam folder, or",
+    "try_another_e-mail": "try with another e-mail address."
+  },
+
+  "descriptions": {
+    "confirmNotRobot": "You have entered an incorrect username or password multiple times. Please confirm that you are not a robot.",
+    "to_finish_signing_up": "To finish signing up, ",
+    "confirm_e-mail": "confirm your email address using THIS DEVICE.",
+    "e-mail_confirmed": "Your e-mail was successfully confirmed.",
+    "e-mail_for_restoring": "Enter an e-mail associated with your account and we will send instructions on how to restore your password.",
+    "e-mail_for_restoring_username": "Enter an e-mail associated with your account and we will send instructions on how to restore your username.",
+    "instructions_sent": "Instructions have been sent to your e-mail to restore your password.",
+    "instructions_username_sent": "Instructions have been sent to your e-mail to restore your username.",
+    "password_instructions": "Your new password must be different from previously used passwords.",
+    "password_changed": "Your password has been successfully changed.",
+    "link_has_expired": "Your email confirmation link has expired. Please click \"Send Again\" to receive a new confirmation email.",
+    "if_not_receiving_email": "If you are not receiving an email, contact us."
+  },
+
+  "hints": {
+    "username": "In order to protect your identity now or in the future, we recommend not using your personal information when creating a username."
+  }
+}
